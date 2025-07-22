@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Weather.css";
 import Search from "../assets/search.png";
-import Clear from "../assets/Clear.webp";
-import Cloud from "../assets/Cloud.png";
-import Drizzle from "../assets/Drizzle.png";
-import Humidity from "../assets/Humidity.png";
-import Rain from "../assets/Rain.png";
-import Snow from "../assets/Snow.png";
-import Wind from "../assets/Wind.png";
+import Clear from "../assets/clear.webp";
+import Cloud from "../assets/cloud.png";
+import Drizzle from "../assets/drizzle.png";
+import Humidity from "../assets/humidity.png";
+import Rain from "../assets/rain.png";
+import Snow from "../assets/snow.png";
+import Wind from "../assets/wind.png";
 
 const Weather = () => {
   const inputRef = useRef();
